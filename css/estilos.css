@@ -44,7 +44,7 @@ a{
 }
 
 .contenedor-menu .menu .sub > a:hover ~ .submenu{
-	display: block;
+	display: flex;
 	position: relative;
 	left: 100%;
 }
