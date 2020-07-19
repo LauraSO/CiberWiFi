@@ -42,3 +42,6 @@ body{
 	text-align: center;
 	margin: 5px;
 }
+.boton:hover{
+	background: #4e04ab;
+}
