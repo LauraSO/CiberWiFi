@@ -10,33 +10,31 @@
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-	<div class="banner">
-		<div class="circulo"><a href="index.html"><img src="img/nuevologo.png" align="rigth"></a></div>
-		<li class="principal">REPARACION Y TELECOMUNICACIONES</li>
-	</div>
 	
-		<input type="checkbox" class="checkbox" id="check">
-		<label class="iconoMenu" for="check"><i class="fas fa-bars"></i></label>
-	<div class="contenedor-menu">
+	<div id="contenedor-menu">
 		<ul class="menu">
-			<li><a href="#"><i class="icono fas fa-cogs"></i>Soporte Ténico</a></li>
-			<li><a href="#"><i class="icono fas fa-boxes"></i>Infraestructura</a></li>
-			<li class="sub"><a href="clientesDatos.html"><i class="icono fas fa-user-friends"></i>Clientes <i class="icono fas fa-arrow-circle-right"></i></a>
-				<ul class="submenu">
-					<li><a href="#" ><i class="icono fas fa-comment-dollar"></i>Facturacion</li>
-					<li><a href="#"><i class="icono fas fa-database"></i>Consulta Datos</a></li>
+			<li><a href="soporte.html"  target="centro"><i class="icono fas fa-cogs"></i>Soporte Tecnico</a></li>
+			<li><a href="infraestructura.html"  target="centro"><i class="icono fas fa-boxes"></i>Infraestructura</a></li>
+			<li class="submenu"><a href=""><i class="icono fas fa-user-friends"></i>Clientes<i class="iconoDer fas fa-arrow-circle-down"></i></a></s>
+				<ul>
+					<li><a href="clientesFacturacion.html"  target="centro"><i class="icono fas fa-comment-dollar"></i>Facturacion</a></li>
+					<li><a href="clientesDatos.html"  target="centro"><i class="icono fas fa-database"></i>Datos</a></li>
 				</ul>
 			</li>
-			<li class="sub"><a href="#"><i class="icono fas fa-chart-line"></i>Facturacion <i class="icono fas fa-arrow-circle-right"></i></a>
-				<ul class="submenu">
-					<li><a href="#"><i class="icono fas fa-hand-holding-usd"></i>Monto Recaudado</li>
-					<li><a href="#"><i class="icono fab fa-creative-commons-nc"></i>Abonados / Morosos</a></li>
+			<li class="submenu"><a href=""><i class="icono fas fa-chart-line"></i>Facturacion<i class="iconoDer fas fa-arrow-circle-down"></i></a>
+				<ul>
+					<li><a href="facturacionResumen.html"  target="centro"><i class="icono fas fa-hand-holding-usd"></i>Resumen</a></li>
+					<li><a href="facturacionAbonados.html"  target="centro"><i class="icono fab fa-creative-commons-nc"></i>Abonados / Morosos</a></li>
 				</ul>
 			</li>
+			<div class="circulo"><a href="index.html"><img src="img/nuevologo.png" align="rigth"></a></div>
 		</ul>
-	</div>
+	</div>	
 	<div class="contenedor-central">
-		<img src="img/pic02.jpg">
+		<iframe src="" id="marco" name="centro"></iframe>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/principal.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
-*{
-	margin: 0;
-	padding: 0;
+s*{
+	margin: 0px;
+	padding: 0px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-box-sizing:border-box; 
@@ -12,92 +12,66 @@ body{
 	line-height: 18px;
 }
 
-a{
-	text-decoration: none;
-	list-style: none;
-	color: #fff;
-}
-
-.principal{
-	position: fixed;
-	top: 20px;
-	left: 0;
-	width: 100%;
-	height: 50px;
-	font-size: 30px;
-	text-decoration: none;
-	list-style: none;
-	color: #003366;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-}
-
-.contenedor-menu {
-	width: 25%;
-	height: 100%;
-	min-width: 250px;
+#contenedor-menu{
+	margin: auto;
+	width: 65%;
 	font-family: 'Lato', sans-serif;
 	line-height: 18px;
-	display: relative;
-	float: left;
-	transition: width 0.3s;
 }
 
-.contenedor-menu .menu .sub > a:hover ~ .submenu{
-	display: flex;
-	position: relative;
-	left: 100%;
-}
-
-.checkbox:checked ~ .contenedor-menu{
-	width: 0px;
-	transition: width 0.3s;
-}
-
-.contenedor-menu .menu{
-	width: 100%;
-	left: 0px;
-}
-
-.contenedor-menu ul{
+ul{
 	list-style: none;
 }
 
-.contenedor-menu .menu li a{
-	color: #494949;
-	display: flex;
+.menu li a{
+	background: #1a95d5;
+	color: #fff;
+	text-decoration: none;
 	padding: 15px 20px;
-	background: #e9e9e9;
+	display: block; 
+	border-radius: 5px;
 }
 
-.contenedor-menu .menu li a:hover{
-	background: #1a95d5;
-	color: #fff;
+.menu >li{
+	float: left;
 }
 
-.contenedor-menu .menu ul{
+.menu li a:hover {
+	background: #4e04ab;
+
+}
+
+.menu li ul {
 	display: none;
+	position: fixed;
 }
 
-.contenedor-menu .menu .submenu a{
-	background: #424242;
-	color: #fff;
-
+.menu li:hover > ul{
+	display: block;
 }
 
-.contenedor-menu .menu .sub > a:hover{
-	background: #1a95d5;
-	padding-left: 30px;
-	font-size: 25px;
+.icono {
+    margin-right: 10px;
+    font-size: 20px;
+    float: left;
+}
+
+.iconoDer {
+    margin-left: 10px;
+    font-size: 20px;
+    float: right;
 }
 
 .circulo {
-    position: relative;
+    position: absolute;
     width: 100px;
     height: 50px;
+    top:0px;
+    right: 0px;
     border-radius: 50%;
-    background-color: #FFFFFF;
+    background-color: transparent;
     margin-left: auto;
+    display: block;
 }
 
 .circulo img {
@@ -108,40 +82,33 @@ a{
   margin-left:auto;
 }
 
-.banner{
-	background: #fff;
+.contenedor-central {
+    display: block;
+    margin: 10px 10px;
+    border:1px;
+}
+
+#marco{
 	width: 100%;
-	height: 50px;
-
-}.icono{
-	margin-right: 10px;
-	font-size: 20px;
-}
-.iconoMenu {
-	position: relative;
-	margin: 10px 10px;
-	font-size: 30px;
-	width: 100%;
-	float: left;
-	display: block;
-	color: #fff;
+	height: 100%;
+	margin: 50px 0px;
+	border-style: none;
+	background: transparent;
+	scroll-behavior: auto;
 }
 
-.contenedor-central{
-	margin-top: 0px;
-	margin-left: 50px;
-	display: inline-block;
-	font-family: 'Lato', sans-serif;
-	float: left;
+.submenu:hover {
+    font-size: 25px;
 }
 
-.contBtnMenu{
-	position: relative;
-	width: 5%;
-	display:flex;
-	float: top;
+.submenu:hover .icono{
+    font-size: 27px;
 }
 
-.checkbox{
-	display: none;
+.submenu:hover .iconoDer{
+    font-size: 27px;
+}
+
+.submenu:hover > ul{
+	font-size: 18px;
 }
