@@ -1,0 +1,107 @@
+s*{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-box-sizing:border-box; 
+}
+
+body{
+	background: #007dd6;
+	font-family: 'Lato', sans-serif;
+	line-height: 14px;
+}
+
+.campo{
+	width: 100%;
+	padding: 10px;
+	font-family: 'Lato', sans-serif;
+	border-radius: 5px;
+	border-bottom: 20px;
+	border: 3px solid black;
+}
+
+.boton{
+	width: 20%;
+	background: #1a95d5;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	padding: 15px 20px;
+	display: block; 
+	border-radius: 5px;
+	border: 1px solid;
+	text-align: center;
+	margin: 5px;
+}
+.boton:hover{
+	background: #4e04ab;
+	padding: 20px 25px;
+	font-size: 20px;
+}
+
+.buscar{
+	margin:0px auto;
+	width: 30%;
+	display: inline-flex;
+}
+
+.resumen{
+	margin:0px auto;
+	width: 30%;
+	float: right;
+}
+
+.saldo{
+	width: 30%;
+	background: #04B431;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	padding: 20px 25px;
+	border-radius: 5px;
+	border: 3px solid #000;
+	text-align: center;
+	margin: 5px;
+	float: right;
+
+}
+
+.cliente{
+	width: 50%;
+	background: transparent;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	padding: 20px 25px;
+	display: inline-flex; 
+	border-radius: 5px;
+	border:1px solid #000;
+	text-align: center;
+	margin:10px auto;
+	float: left;
+}
+
+.tabla{
+	margin:80px auto;
+	width: 90%;
+	padding: 10px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	border-radius: 5px;
+	border-bottom: 20px;
+	border: 3px solid black;
+}
+
+td{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #000;
+	border: 3px solid #000;
+	padding: 5px 10px;
+	width: 15%;
+	text-align: top;
+}

@@ -7,7 +7,7 @@ s*{
 }
 
 body{
-	background: #0b2027;
+	background: #007dd6;
 	font-family: 'Lato', sans-serif;
 	line-height: 14px;
 }
@@ -15,15 +15,15 @@ body{
 .formulario{
 	width: 30%;
 	padding:50px;
-	margin-top: auto;
+	margin-top: 50px;
 	color: white;
+	float: left;
 }
 
 .campo{
 	width: 100%;
 	padding: 10px;
 	font-family: 'Lato', sans-serif;
-	line-height: 14px;
 	border-radius: 5px;
 	border-bottom: 20px;
 	border: 3px solid black;
@@ -39,9 +39,26 @@ body{
 	padding: 15px 20px;
 	display: block; 
 	border-radius: 5px;
+	border: 1px solid;
 	text-align: center;
 	margin: 5px;
 }
 .boton:hover{
 	background: #4e04ab;
+	padding: 20px 25px;
+	font-size: 20px;
+}
+
+.contBoton{
+	width: 30%;
+	padding:50px;
+	margin-top: 50px;
+	color: white;
+	float: right;
+}
+
+.buscar{
+	margin:0px auto;
+	width: 30%;
+	display: inline-flex;
 }
