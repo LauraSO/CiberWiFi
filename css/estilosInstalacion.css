@@ -7,7 +7,75 @@ s*{
 }
 
 body{
-	background: #007dd6;
+	background: #09A1F6;
 	font-family: 'Lato', sans-serif;
 	line-height: 14px;
+}
+
+.formulario{
+	width: 30%;
+	padding:30px auto;
+	margin-top: 30px;
+	color: white;
+	float: left;
+}
+
+.campo{
+	width: 100%;
+	padding: 10px;
+	font-family: 'Lato', sans-serif;
+	border-radius: 5px;
+	border-bottom: 20px;
+	border: 3px solid black;
+}
+	
+.buscar{
+	margin:0px auto;
+	width: 30%;
+	display: inline-block;
+}
+
+.cliente{
+	width: 50%;
+	background: transparent;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	padding: 20px 25px;
+	display: inline-flex; 
+	border-radius: 5px;
+	border:1px solid #000;
+	text-align: center;
+	margin:0px auto;
+	float: right;
+}
+
+.contBoton{
+	width: 50%;
+	padding:50px;
+	margin-top: 0px auto;
+	color: white;
+	float: right;
+}
+
+.boton{
+	width: 20%;
+	background: #1a95d5;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	padding: 15px 20px;
+	display: block; 
+	border-radius: 5px;
+	border: 1px solid;
+	text-align: center;
+	margin: 5px;
+}
+
+.boton:hover{
+	background: #4e04ab;
+	padding: 20px 25px;
+	font-size: 20px;
 }
