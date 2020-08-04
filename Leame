@@ -1,0 +1,7 @@
+Para Empezar a configurar doctrine
+Nota: te mande un libro por email 
+-Instalar composer con el setup  en C:\xampp\php
+-Crar carpeta vendor en raiz del proyecto para instalar dependencias
+-Ejecutar en el shell de xammp php composer.phar install 
+Listo dependencias instaladas 
+
